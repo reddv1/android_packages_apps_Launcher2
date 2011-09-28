@@ -130,7 +130,7 @@ void moveTo() {
 	// debugF("======= moveTo", state->targetPos);
 }
 
-void setZoom() {F
+void setZoom() {
     g_Zoom = state->zoomTarget;
     g_DrawLastFrame = 1;
     updateReadback();

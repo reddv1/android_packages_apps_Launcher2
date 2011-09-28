@@ -130,17 +130,19 @@ void moveTo() {
 	// debugF("======= moveTo", state->targetPos);
 }
 
-void setZoom() {
+void setZoom() {F
     g_Zoom = state->zoomTarget;
     g_DrawLastFrame = 1;
     updateReadback();
 }
 
+// Eamon, from 4 to 4.5, to speed up fling scrolling     
+// Eamon, from 3.5 to 2.5, to increase touch sensitivity
 void fling() {
     g_LastTouchDown = 0;
-    g_PosVelocity = -state->flingVelocity * 4;
+    g_PosVelocity = -state->flingVelocity * 4.5;
     float av = fabsf(g_PosVelocity);
-    float minVel = 3.5f;
+    float minVel = 2.5f;
 
     minVel *= 1.f - (fabsf(fracf(g_PosPage + 0.5f) - 0.5f) * 0.45f);
 
@@ -362,8 +364,9 @@ main(int launchID)
     // physics may break if DT is large.
     g_DT = minf(g_DT, 0.2f);
 
+	// Eamon, from 1.7 to 2.5, to speed up apps zoom in and out
     if (g_Zoom != state->zoomTarget) {
-        float dz = g_DT * 1.7f;
+        float dz = g_DT * 2.5f;
         if (state->zoomTarget < 0.5f) {
             dz = -dz;
         }

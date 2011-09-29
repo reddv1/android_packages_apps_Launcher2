@@ -31,13 +31,11 @@
         android:layout_height="match_parent"
         android:scrollbars="horizontal"
         android:fadeScrollbars="true"
-        launcher:defaultScreen="2">
+        launcher:defaultScreen="1">
 
         <include android:id="@+id/cell1" layout="@layout/workspace_screen" />
         <include android:id="@+id/cell2" layout="@layout/workspace_screen" />
         <include android:id="@+id/cell3" layout="@layout/workspace_screen" />
-        <include android:id="@+id/cell4" layout="@layout/workspace_screen" />
-        <include android:id="@+id/cell5" layout="@layout/workspace_screen" />
 
     </com.android.launcher2.Workspace>
 
@@ -46,7 +44,7 @@
         android:layout_width="93dip"
         android:layout_height="@dimen/button_bar_height"
         android:layout_gravity="bottom|left"
-        android:layout_marginLeft="6dip"
+        android:layout_marginLeft="9dip"
 
         android:scaleType="center"
         android:src="@drawable/home_arrows_left"
@@ -63,7 +61,7 @@
         android:layout_width="93dip"
         android:layout_height="@dimen/button_bar_height"
         android:layout_gravity="bottom|right"
-        android:layout_marginRight="6dip"
+        android:layout_marginRight="9dip"
 
         android:scaleType="center"
         android:src="@drawable/home_arrows_right"

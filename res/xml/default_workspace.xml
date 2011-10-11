@@ -15,10 +15,18 @@
 -->
 
 <favorites xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <!--  Far-left screen [4] -->
+
+    <!--  Left screen [1] -->
+
     <!--  Middle screen [2] -->
     <search
         launcher:screen="2"
         launcher:x="0"
         launcher:y="0" />
+
+    <!--  Right screen [3] -->
+
+    <!--  Far-right screen [4] -->
 
 </favorites>

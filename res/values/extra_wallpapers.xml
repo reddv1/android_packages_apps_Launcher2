@@ -17,5 +17,22 @@
 
 <resources>
     <string-array name="extra_wallpapers">
+        <item>wallpaper_bluedotgrid</item>
+        <item>wallpaper_brown</item>
+        <item>wallpaper_desert</item>
+        <item>wallpaper_despair</item>
+        <item>wallpaper_electric</item>
+        <item>wallpaper_field</item>
+        <item>wallpaper_galaxy</item>
+        <item>wallpaper_grass_night</item>
+        <item>wallpaper_grass_light</item>
+        <item>wallpaper_hazybluedots</item>
+        <item>wallpaper_nexuspattern</item>
+        <item>wallpaper_nexuswallpaper1</item>
+        <item>wallpaper_pcut</item>
+        <item>wallpaper_ropelights</item>
+        <item>wallpaper_tree</item>
+        <item>wallpaper_x67</item>
+        <item>wallpaper_black</item>
     </string-array>
 </resources>

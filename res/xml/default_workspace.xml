@@ -15,7 +15,7 @@
 -->
 
 <favorites xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
-    <!--  Far-left screen [3] -->
+    <!--  Far-left screen [0] -->
 
     <!--  Middle screen [1] -->
     <search
@@ -23,6 +23,6 @@
         launcher:x="0"
         launcher:y="0" />
 
-    <!--  Far-right screen [3] -->
+    <!--  Far-right screen [2] -->
 
 </favorites>

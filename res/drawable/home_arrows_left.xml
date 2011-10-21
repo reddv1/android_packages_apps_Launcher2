@@ -20,4 +20,6 @@
     <item android:maxLevel="2" android:drawable="@drawable/home_arrows_left_2" />
     <item android:maxLevel="3" android:drawable="@drawable/home_arrows_left_3" />
     <item android:maxLevel="4" android:drawable="@drawable/home_arrows_left_4" />
+    <item android:maxLevel="5" android:drawable="@drawable/home_arrows_left_5" />
+    <item android:maxLevel="6" android:drawable="@drawable/home_arrows_left_6" />
 </level-list>

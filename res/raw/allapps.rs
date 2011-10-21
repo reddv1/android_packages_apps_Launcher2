@@ -142,7 +142,7 @@ void fling() {
     g_LastTouchDown = 0;
     g_PosVelocity = -state->flingVelocity * 4.5;
     float av = fabsf(g_PosVelocity);
-    float minVel = 2.5f;
+    float minVel = 3.5f;
 
     minVel *= 1.f - (fabsf(fracf(g_PosPage + 0.5f) - 0.5f) * 0.45f);
 

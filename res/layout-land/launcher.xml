@@ -31,13 +31,15 @@
         android:layout_height="match_parent"
         android:scrollbars="horizontal"
         android:fadeScrollbars="true"
-        launcher:defaultScreen="2">
+        launcher:defaultScreen="3">
 
         <include android:id="@+id/cell1" layout="@layout/workspace_screen" />
         <include android:id="@+id/cell2" layout="@layout/workspace_screen" />
         <include android:id="@+id/cell3" layout="@layout/workspace_screen" />
         <include android:id="@+id/cell4" layout="@layout/workspace_screen" />
         <include android:id="@+id/cell5" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell6" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell7" layout="@layout/workspace_screen" />
 
     </com.android.launcher2.Workspace>
 
